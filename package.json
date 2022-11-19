@@ -8,12 +8,13 @@
     "prepare": "husky install"
   },
   "author": "ALLADI SAI MANOJ",
-  "lint-staged": {
+	"lint-staged": {
     "*.js": [
       "eslint",
       "prettier --write ."
     ]
   },
+
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.28.0",
